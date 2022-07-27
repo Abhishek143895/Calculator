@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+#calculator{
+    width: 300px;
+    border: 2px solid black;
+    border-radius:4px;
+    display: flex;
+    flex-direction: column;
+}
+#div-1{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231, 229, 81);
+    font-size: 45px;
+}
+.calcy-btn{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.calcy-in{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.calcy-last{
+    height: 50px;
+    width:calc( 100% / 3 );
+    
+}
+button{
+    height: 100%;
+    width: 100%;  
+    font-size: 20px;
+    border: 1px solid black;
+    
+}
